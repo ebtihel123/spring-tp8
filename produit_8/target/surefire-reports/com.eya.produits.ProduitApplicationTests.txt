@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.eya.produits.ProduitApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 10.373 s <<< FAILURE! - in com.eya.produits.ProduitApplicationTests
+testFindProduit  Time elapsed: 0.033 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.eya.produits.ProduitApplicationTests.testFindProduit(ProduitApplicationTests.java:33)
+
+testUpdateProduit  Time elapsed: 0.009 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.eya.produits.ProduitApplicationTests.testUpdateProduit(ProduitApplicationTests.java:40)
+
+testDeleteProduit  Time elapsed: 0.016 s  <<< ERROR!
+org.springframework.dao.EmptyResultDataAccessException: No class com.eya.produits.entities.Produit entity with id 1 exists!
+	at com.eya.produits.ProduitApplicationTests.testDeleteProduit(ProduitApplicationTests.java:47)
+
